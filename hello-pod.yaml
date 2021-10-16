@@ -1,0 +1,11 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+    Name: Ganga
+spec: 
+ containers:
+   - image: jenkins
+     name: myfirstimage
+     ports:
+       - containerPort: 8080
